@@ -35,7 +35,7 @@ async function sanityDataProducts() {
 }
 
 const ProductDetails = (props: { params: { id: string } }) => {
-  const [data, setData] = useState([]);
+  const [ , setData] = useState([]);
   const [quantity, setQuantity] = useState(1);
   const [cartItem, setCartItem] = useState(null);
 
